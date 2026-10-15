@@ -1,4 +1,4 @@
-# Data-Engineering-Project-Azure-ADF-Databricks-PowerBI
+# Data Engineering Project (Azure-ADF-Databricks-PowerBI)
 This project implements an end-to-end data engineering pipeline using Microsoft Azure services and the AdventureWorks dataset sourced from Kaggle.
 
 The project demonstrates how raw CSV files are ingested from GitHub into Azure Data Lake Storage Gen2, processed using Azure Databricks and PySpark, and loaded into a Silver layer using Azure Data Factory. The transformed data is then connected to Power BI to create visualizations and gain meaningful business insights.
@@ -64,17 +64,8 @@ Created visualizations to explore the AdventureWorks data and present business i
 
 This project uses a Bronze and Silver layer approach to organize data processing.
 
-Layer
-
-Purpose
-
-Bronze
-
-Stores raw CSV files ingested from GitHub.
-
-Silver
-
-Stores transformed and processed data ready for analysis.
+Bronze Layer - Stores raw CSV files ingested from GitHub.
+Silver layer - Stores transformed and processed data ready for analysis.
 
 🎯 Key Learning Outcomes
 
