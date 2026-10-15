@@ -1,0 +1,15 @@
+{
+	"name": "subodh-adf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3b9c3ca1-6fca-4851-b08d-35daa8215910",
+		"tenantId": "d8457ff4-6df9-45bf-999b-ad513673f31a"
+	}
+}
